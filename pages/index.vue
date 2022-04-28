@@ -10,7 +10,7 @@
 export default {
   name: 'IndexPage',
   mounted() {
-    console.log(process.env.VUE_HELLO);
+    console.log(process.env.NUXT_ENV_HELLO);
   }
 }
 </script>
